@@ -1,8 +1,18 @@
-# pi_stream
-Live streaming over local network for Raspberry Pi
+# Simple Python Camera Stream and Snapshot Server
 
-Scripts are taken from https://picamera.readthedocs.io/en/release-1.10/recipes1.html in order to make people able to clone the repository and start streaming right away.
+## Derived from
+Forked from https://github.com/canberkdurmus/pi_stream
 
-See more at: https://singleboardblog.com/
+## Run the server
 
+```bash
+python3 stream.py
+```
 
+## Endpoints
+
+### Get jpeg snapshot
+http://localhost/snapshot.jpg
+
+### Stream
+http://localhost/stream.mjpg'
